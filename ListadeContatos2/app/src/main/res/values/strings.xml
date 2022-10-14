@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista de Contatos</string>
+    <string name="action_settings">Settings</string>
+    <array name="contatos">
+        <item>Aline</item>
+        <item>Lucas</item>
+        <item>Rafael</item>
+        <item>Gabriela</item>
+        <item>Silvana</item>
+    </array>
+</resources>

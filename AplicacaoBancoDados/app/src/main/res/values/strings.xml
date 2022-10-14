@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AplicacaoBancoDados</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grava_registros">Gravar Registros</string>
+    <string name="title_activity_grava_registros2">Gravar Registros (2ª versão)</string>
+    <string name="title_activity_consuta_dados">Consulta Dados</string>
+    <string name="title_activity_alterar_dados">Alterar Dados</string>
+    <string name="title_activity_alterar_dados2">"Alterar Dados (2ª Versão) "</string>
+    <string name="title_activity_excluir_dados">Excluir Dados</string>
+    <string name="title_activity_excluir_dados2">Excluir Dados (2º versão)</string>
+</resources>

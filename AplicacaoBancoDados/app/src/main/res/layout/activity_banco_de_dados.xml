@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3ba0e2" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/icone_bd" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:id="@+id/layoutCorFundo"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#E5BE40"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trabalhando com Banco de Dados no
+                Android"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layoutImagemFundo"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma das opções abaixo:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btcriarbanco"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Criar Banco de Dados"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btcadastrardados"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cadastrar Dados"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btcadastrardados2"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cadastrar Dados (2ª Versão)"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btconsultardados"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Consultar Dados"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btalterardados"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alterar Dados"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btalterardados2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Alterar Dados (2ª Versão)"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Excluir Dados"
+                android:id="@+id/btexcluirdados"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Excluir Dados (2ª versão)"
+                android:id="@+id/btexcluirdados2"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>

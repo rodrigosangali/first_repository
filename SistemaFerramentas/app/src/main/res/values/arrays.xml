@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcoes_busca">
+     <item > Buscar por Nome</item>
+     <item > Buscar por Ferramenta</item>
+    </string-array>
+</resources>

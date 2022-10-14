@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SistemaFerramentas</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastrar_ferramenta">Cadastrar Ferramentas</string>
+    <string name="title_activity_alterar_dados">AlterarDadosActivity</string>
+    <string name="title_activity_consultar_ferramenta">ConsultarFerramentaActivity</string>
+    <string name="title_activity_excluir_ferramenta">ExcluirFerramentaActivity</string>
+    <string name="title_activity_busca_ferramentas">Buscar Ferramentas</string>
+</resources>
